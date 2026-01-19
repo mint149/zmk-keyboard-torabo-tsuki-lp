@@ -113,13 +113,14 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+        MAC_DEFAULT {
+            display-name = "mac_default";
             bindings = <
 &kp ESC    &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                                                         &kp N6       &kp N7    &kp N8     &kp N9    &kp N0                &kp BSPC
 &kp TAB    &kp Q      &kp W     &kp E     &kp R     &kp T                                                          &kp Y        &kp U     &kp I      &kp O     &kp P                 &kp BSPC
 &kp LCMD   &kp A      &kp S     &kp D     &kp F     &kp G        &mkp LCLK                  &mkp RCLK              &kp H        &kp J     &kp K      &kp L     &kp SEMI              &kp ENTER
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V     &kp B        &kp LALT                  &kp RALT          &kp N        &kp M     &kp COMMA  &kp PERIOD  &kp SLASH  &kp SQT
-&kp F13    &kp F14    &kp F15   &kp F16   &kp LEFT_ALT  &lt_to_layer_0 6 LANG2  &kp SPACE  &kp RCTRL    &lt_to_layer_0 7 LANG1  &kp F15     &kp F16    &kp F17  &kp RCTRL             &kp RCTRL
+&kp F13    &kp F14    &kp F15   &kp F16   &kp LEFT_ALT  &lt_to_layer_0 1 LANG2  &kp SPACE  &kp RCTRL    &lt_to_layer_0 2 LANG1  &kp F15     &kp F16    &kp F17  &kp F18             &kp F19
             >;
         };
 
