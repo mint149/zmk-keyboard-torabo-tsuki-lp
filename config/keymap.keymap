@@ -141,11 +141,11 @@
         MOUSE {
             display-name = "mouse";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans           &trans     &trans               &trans       &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans           &trans     &trans               &trans       &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &kp RC(RS(TAB))  &mkp LCLK  &mkp RCLK            &kp RC(TAB)  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans           &mkp MCLK  &mo SCROLL_LAYER     &trans       &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans           &trans     &trans               &trans       &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans           &trans     &trans      &trans       &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans           &trans     &trans      &trans       &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &kp RC(RS(TAB))  &mkp LCLK  &mkp RCLK   &kp RC(TAB)  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans           &mkp MCLK  &mo SCROLL  &trans       &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans           &trans     &trans      &trans       &trans  &trans
             >;
         };
 
